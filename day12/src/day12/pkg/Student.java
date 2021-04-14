@@ -11,11 +11,12 @@ public class Student {
 	
 	// 기본생성자 선언
 	Student(){
-		
+		System.out.println("기본생성자 호출");
 	}
 	
 	// 매개변수가 있는 생성자 선언
 	Student(String name , int stuNum){
+		System.out.println("매개변수 있는 생성자 호출");
 		this.name = name;
 		this.stuNum = stuNum;
 	}
