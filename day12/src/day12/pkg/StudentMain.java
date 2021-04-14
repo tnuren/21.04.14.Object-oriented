@@ -17,7 +17,7 @@ public class StudentMain {
 		System.out.println(s2.name);
 		System.out.println(s2.stuNum);
 
-		// 박지성 > 매개변수가 있는 생성자 String name >
+		// 학생2 > 매개변수가 있는 생성자 String name >
 		// = 뒤 name > this.name 적용
 		
 		System.out.println("메소드 호출전");
@@ -46,10 +46,20 @@ public class StudentMain {
 		
 		System.out.println(s2.numberMethod());
 		
+		System.out.println("String 메소드호출");
+		System.out.println(s3.stringMethod());
+		
+		String bb = s3.stringMethod();
+		System.out.println(bb);
+		
+		Student s4 = new Student();
+		int cc = s4.numberMethod2(30);
+		System.out.println(cc); // cc? 40? 
 		
 		
-		
-		
+		int number1 = 50;
+		cc = s4.numberMethod2(number1);
+		System.out.println(cc);
 		
 		
 	}
