@@ -3,7 +3,7 @@ package day12.pkg;
 public class CalMain {
 
 	public static void main(String[] args) {
-		
+		// 클래스 객체 선언
 		// 리턴이 없는 메소드		
 		Cal c1 = new Cal();
 		c1.sum1(10, 20);
