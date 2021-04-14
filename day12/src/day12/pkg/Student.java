@@ -21,7 +21,29 @@ public class Student {
 		this.stuNum = stuNum;
 	}
 	
+	// 메소드(함수) 선언
+	// 리턴이 없는 메소드 선언
+	/*
+	 * void : 리턴이 없다는 의미
+	 * 메소드이름 : fieldPrint ( 메소드 이름은 자유 )
+	 * 매개변수 : 없음.
+	 */
+	void fieldPrint() {
+		System.out.println("메소드 호출됨");
+		System.out.println(this.name);
+		System.out.println(this.stuNum);
+	}
 	
+	// 리턴이 있는 메소드 선언
+	/*
+	 * int : 리턴되는 값이 int
+	 * 메소드이름 : numberMethod
+	 * 매개변수 : 없음
+	 */
+	int numberMethod() {
+		int num = 10; // 정수형변수
+		return num; // num 변수가 가진 값을 리턴해줌
+	}
 	
 	
 	
