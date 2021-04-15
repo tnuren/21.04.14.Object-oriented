@@ -1,7 +1,7 @@
 package day12.pkg;
 
 public class Member {
-
+	// 필드값
 	String id;
 	String password;
 	String name;
@@ -11,7 +11,8 @@ public class Member {
 		
 	}
 	// 매개변수 생성자
-	Member(String id , String password ,String name , int age){
+	Member(String id , String password ,
+			String name , int age){
 		this.id = id;
 		this.password = password;
 		this.name = name;
@@ -19,19 +20,20 @@ public class Member {
 	}
 	
 	void info() {
-		System.out.println(id);
-		System.out.println(password);
-		System.out.println(name);
-		System.out.println(age);
+		System.out.println(this.id);
+		System.out.println(this.password);
+		System.out.println(this.name);
+		System.out.println(this.age);
+		// 필드 쓸때는 this 다 붙이기
 	}
 	
 	void update(String name) {
 		this.name = name;
-		System.out.println(this.name);
+		//System.out.println(this.name);
 	}
 
 	String myName() {
-		return name;
+		return this.name;
 	}
 	
 }

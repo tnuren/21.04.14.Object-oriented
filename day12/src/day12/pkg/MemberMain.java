@@ -16,25 +16,17 @@ public class MemberMain {
 				
 		String name2 = m.myName();
 		System.out.println(name2);
-
+//		sysout(m.myName()); 가능
 		
-		Member m3 = new Member("tnuren" , "abc" , "배준호" , 26);
+		Member m3 = new Member("tnuren" , "abc" ,
+								"배준호" , 26);
 		m3.info();
 		m3.update("배준호호");
 		
 		String name3 = m3.myName();
 		System.out.println(name3);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+																		
 	}
 
 }
